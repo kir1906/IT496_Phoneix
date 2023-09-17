@@ -25,3 +25,6 @@ fancy_color_dominant_color and fancy_color_secondary_color : If the diaond is a 
 fancy_color_overtone : Describes the colored inclusions.
 fancy_color_intensity : Intensity or saturation of the fancy color
 total_sales_price : Total price of the diamond.
+
+EDA:
+Exploratory Data Analysis (EDA) to gain insights into diamond characteristics. In EDA we provide data visualisation in different graph method like pair plot, cat plot, subplot, data distribution plot, pie chart, scatter plot. EDA summarize the main behaviour, features, and patterns in a dataset. Pair plot contains scatter plot of meas_length, meas_width, total_sales_price, meas_depth, table_percent, depth_percent. Distribution plot of carat_weight is shown. And pie chart of color, clarity, cut, lab. And scatter plot of carat_weight with respect with total_sales_price. 
