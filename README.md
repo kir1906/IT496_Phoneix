@@ -42,3 +42,19 @@
 - Cross-validation assess how well the model generalizes to unseen data at each combination of hyperparameters.
 - Model evaluation is a process to find the prediction of the trained model on the testing dataset or new, unseen data.
 - The model's performance can be evaluated by evaluation metrices such as Mean Absolute Error, Mean Squared Error, Root Mean Squared Error, etc.
+
+**T2 Identified list regression problems :**
+- total sales price prediction 
+Predicting the total_sales_price of a diamond is valuable beacuse it is depended on cut quality, color, clarity, Symmetry and Polish. Simply it relies on every attribute
+
+- carat_weight prediction
+carat weight is function of length, width and depth of the diamond.
+
+- table percent 
+table percent is function of table width and diameter of diamond. So it can be predicted easily.
+
+
+
+
+Which one does seem the most interesting to you and why?
+- Predicting the total_sales_price of a diamond is valuable beacuse it is depended on cut quality, color, clarity, Symmetry and Polish. Comparatively total_sales_price relies on every attribute. Total sales price seems most interesting because it allows buyers to make informed purchasing decisions based on price expectations. Sellers can use it to set competitive prices, and investors can assess the potential return on investment in diamonds. Prediction of total sales price helps assess risk in diamond transactions. It can be used to evaluate whether a seller is offering a fair price for a diamond based on its characteristics. If you are in the business of buying or selling diamonds, regression models can help you optimize pricing strategies. Utilizing regression analysis to predict total sales price can give your business a competitive advantage by offering pricing that reflects market dynamics and the value of individual diamonds accurately.
