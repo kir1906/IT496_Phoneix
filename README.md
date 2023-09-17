@@ -1,18 +1,27 @@
 # IT496_Phoneix
-color Clear diamonds are graded D-Z. The higher letters more yellowish but are often better values since color is hard to determine once in a ring.
-clarity refers the inclusions (i.e., internal flaws) in the diamonds seen though a jewelers loupe or microscope. Fewer and smaller are better.
-carat_weight Refers to the mass of the diamond. It's loosely connected with dimension of a diamond but cut and cut_quality tends to play an equally large if not larger role.
-cut_quality refers the GIA Cut Grading System which was developed in 2005 and is de facto standard.
-lab is the grading lab. The big three are GIA, IGI and HRD. Each diamond gets a lab certificate that looks like this.
-polish and symmetry are what you would expect.
-eye-clean refers to the blemishes or inclusions can see with a the naked eye. There are 10 grades.
-culet_size is the size of the circle you'd see if you looked straight down. None is ideal because it affects the amount of light that gets reflected.
-culet_condition indicates if the culet has any chipping, which is why some diamonds don't close to a point but rather a very small flat spot.
-fancy_color_ columns have to do with colored diamonds. Formerly, extremely rare but now common, popular, and almost always lab grown.
-fluor columns refer to the effect of long wave UV light. According to GIA 25-35% have it; for ~10% of those it's noticeable to an expert.
-depth_percentandtable_percent are the relative measurements of the flat part of the top and the depth. This varies somewhat by cut.
-meas_length, meas_width, meas_depth are the absolute measurements of stone.
-girdle min/max are where the id of a stone is engraved they also are where the meets the setting and play a role in reflection. There are 9 values ranging from extremely thin to extremely thick
-fancy columns refer to colored diamonds. They can be natural like the extremely rare blue diamonds, or lab grown. The columns refer to the colors, secondary colors and their intensity.
-total_sales_price is priced in dollars.
+This repository is about diamond dataset. This data set is collected from kaggle. The dataset is intended for use in Dara visulization through EDA, data preprocessing, transformation, corelation, data split, hyperparameter, modal selection.The dataset file in CSV(Comma Separated Value) format containing the diamond data.
 
+The dataset include varios attributes such as 'cut', 'color', 'clarity', 'carat_weight', 'cut_quality','lab', 'symmetry', 'polish', 'eye_clean', 'culet_size','culet_condition', 'depth_percent', 'table_percent', 'meas_length','meas_width', 'meas_depth', 'girdle_min', 'girdle_max', 'fluor_color',    'fluor_intensity', 'fancy_color_dominant_color','fancy_color_secondary_color', 'fancy_color_overtone','fancy_color_intensity', 'total_sales_price', 'cut_pre', 'color_pre','clarity_pre', 'cut_quality_pre', 'lab_pre', 'symmetry_pre','polish_pre', 'eye_clean_pre', 'culet_size_pre','fancy_color_intensity_pre', 'fancy_color_overtone_pre',    'fancy_color_secondary_color_pre', 'fancy_color_dominant_color_pre','girdle_max_pre'. 
+
+**Data Description**
+cut : Quality of the Diamond's cut.
+color : Colour of the diamond.
+clarity : Level of clarity or purity of the diamond.
+carat_weight : Weight of the diamond in carats.
+lab : Laboratory that has graded or certified the diamond's.
+symmetry : Reflects the symmetry of the gemstone's facets.
+polish : Quality of the diamond's surface.
+eye_clean : Indicates whether the diamond appears clean to the naked eye.
+culet_size : Size of the culet.
+culet_condition : Condition of the culet
+depth_percent : Depth of the gemstone in percentage.
+table_percent : Size of the flat facet on the top of the diamond in percentage.
+meas_length : Length of the diamond.
+meas_width : Width of the diamond.
+meas_depth : Depth of the diamond.
+girdle_min and girdle_max : Minimum and Maximum thickness of the girdle.
+fluor_color and fluor_intensity : Any fluorescence observed in the gemstone under UV light, including the color and intensity of the fluorescence.
+fancy_color_dominant_color and fancy_color_secondary_color : If the diaond is a fancy colored, indicating the primary and secondary colors present.
+fancy_color_overtone : Describes the colored inclusions.
+fancy_color_intensity : Intensity or saturation of the fancy color
+total_sales_price : Total price of the diamond.
